@@ -17,7 +17,7 @@ import logging
 
 logging.basicConfig(filename="//Users//abdi.bileh17//Documents//Selenium//SeleniumTuto//ProjetConnect//testLog.log") 
 
-logging.info("---- DEBUT DE TEST----")
+logging.debug("---- DEBUT DE TEST----")
 # driver = webdriver.Chrome()
 # driver.get("http://demostore.supersqa.com/my-account/")
 
