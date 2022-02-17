@@ -12,10 +12,11 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
-driver.maximize_window()
 driver.get("https://www.6play.fr")
-time.sleep(2)
+time.sleep(5)
 driver.maximize_window()
 time.sleep(3)
-
+print(driver.title)
+driver.fullscreen_window()
+time.sleep(5)
 driver.quit()
